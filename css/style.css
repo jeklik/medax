@@ -1,18 +1,28 @@
 body {
-    position: relative;
-    box-sizing: border-box;
-    min-height: 100vh;
-    background-color: #020C17;
-    color: white;
-    font-size: 1.0625rem;
-    line-height: 1.60;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1.10px;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #020c17;
+  color: white;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.1px;
+}
+
+.container-fluid {
+  padding: 0px 50px;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0px 30px;
+  }
 }
 
 .ls-0 {
-    letter-spacing: 0;
+  letter-spacing: 0;
 }
 
 /*
@@ -23,56 +33,135 @@ body {
 */
 
 .offcanvas .btn-close {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .text-bg-dark {
-    color: #fff!important;
-    background-color: #020C17 !important;
+  color: #fff !important;
+  background-color: #020c17 !important;
 }
 
 .navbar-toggler {
-    width: 60px;
-    height: 60px;
-    background: white;
-    border-radius: 50rem;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0 !important;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 a.navbar-brand img {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 .btn-close:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .hero-section {
-    background: url('../img/mozek-bg.png');
-    /*
-    background-attachment: fixed;
-    background-size: 50%;
-    background-position: top right;
-    */
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url("../img/mozek-bg-jpg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 canvas {
-    opacity: 0.25;
-    position: absolute;
-    overflow-x: hidden;
-    max-width: 100%;
+  opacity: 0.25;
+  position: absolute;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 span.heart {
-    position: relative;
-    top: -40px;
+  position: relative;
+  top: -40px;
 }
+
+.card.extended-services-card {
+  overflow: hidden;
+}
+
+.extended-services-card .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 0) 75%);
+}
+
+.extended-services-card img {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.extended-services-card:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.text-inherit {
+  color: inherit;
+  text-decoration: none;
+}
+
+.extended-functions .card .move-icon i {
+  transition: all 0.3s ease; /* Zajišťuje hladký přechod pro všechny změny */
+}
+
+.extended-functions .card:hover .move-icon i {
+  transform: translateX(8px); /* Posune ikonu o 5px doprava */
+  transition: transform 0.3s ease; /* Umožňuje hladký posun */
+}
+
+.extended-functions .icon {
+    width: 51px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #020c17;
+    border-radius: 50rem;
+    padding-left: 2px;
+}
+
+.btn-primary {
+    background: white;
+    color:rgba(2, 12, 23, 1);
+    border-color: white;
+}
+
+.btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background:rgba(2, 12, 23, 1);
+    color:white;
+    border-color:rgba(2, 12, 23, 1);
+}
+
+.btn-outline-primary:hover {
+    background:rgba(2, 12, 23, 1);
+    color: white;
+    border-color: rgba(2, 12, 23, 1)
+}
+
+
+/*
+.extended-services-card .card-text {
+    min-height: 5em;
+}
+*/
