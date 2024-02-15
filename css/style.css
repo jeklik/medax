@@ -11,6 +11,18 @@ body {
   letter-spacing: 1.1px;
 }
 
+.modal-content {
+  color: #020c17;
+}
+
+.modal-content {
+  color: #020c17;
+}
+
+.bg-dark-blue {
+  background: #020c17;
+}
+
 .container-fluid {
   padding: 0px 50px;
 }
@@ -125,43 +137,56 @@ span.heart {
 }
 
 .extended-functions .icon {
-    width: 51px;
-    height: 51px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    color: #020c17;
-    border-radius: 50rem;
-    padding-left: 2px;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #020c17;
+  border-radius: 50rem;
+  padding-left: 2px;
 }
 
 .btn-primary {
-    background: white;
-    color:rgba(2, 12, 23, 1);
-    border-color: white;
+  background: white;
+  color: rgba(2, 12, 23, 1);
+  border-color: white;
 }
 
 .btn-outline-primary {
-    color: white;
-    border-color: white;
+  color: white;
+  border-color: white;
 }
 
 .btn-primary:hover {
-    background:rgba(2, 12, 23, 1);
-    color:white;
-    border-color:rgba(2, 12, 23, 1);
+  background: rgba(2, 12, 23, 1);
+  color: white;
+  border-color: rgba(2, 12, 23, 1);
 }
 
 .btn-outline-primary:hover {
-    background:rgba(2, 12, 23, 1);
-    color: white;
-    border-color: rgba(2, 12, 23, 1)
+  background: rgba(2, 12, 23, 1);
+  color: white;
+  border-color: rgba(2, 12, 23, 1);
 }
 
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background: rgba(2, 12, 23, 1);
+  color: white;
+  border-color: rgba(2, 12, 23, 1);
+}
 
 /*
 .extended-services-card .card-text {
     min-height: 5em;
 }
 */
+
+footer img {
+  max-width: 350px !important;
+}

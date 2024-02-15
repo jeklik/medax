@@ -33,8 +33,8 @@
                     <p class="mb-5 fw-light">SmartMEDIX je informační systém vyvíjený českou společností, který neobsahuje nevyžádanou
                         reklamu, je určený pro malá i velká zdravotnická zařízení. Umožňuje kompletní vedení zdravotnické
                         dokumentace, vyúčtování péče a konektivitu na veškeré eHealth systémy českého zdravotnictví.</p>
-                        <a href="#" class="btn btn-primary px-4">Chci vědět víc</a>
-                        <a href="#" class="btn btn-outline-primary px-4">Mám zájem o demoverzi</a>
+                    <a href="#" class="btn btn-primary px-4 rounded-3">Chci vědět víc</a>
+                    <a href="#" class="btn btn-outline-primary px-4 rounded-3" data-bs-toggle="modal" data-bs-target="#demo_version">Mám zájem o demoverzi</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                                 <img src="img/ivf-clinic.jpg" class="card-img rounded-4" alt="...">
                                 <div class="card-img-overlay">
                                     <div class="card-overlay-content d-flex flex-column justify-content-end h-100">
-                                        <p class="display-5 fw-bold mb-0">IVF</p>
+                                        <p class="display-6 fw-bold mb-0">IVF</p>
                                         <p class="card-text">Systém pro vedení asistované reprodukce</p>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@
                                 <img src="img/hospital.jpg" class="card-img rounded-4" alt="...">
                                 <div class="card-img-overlay">
                                     <div class="card-overlay-content d-flex flex-column justify-content-end h-100">
-                                        <p class="display-5 fw-bold mb-0">NIS/LDN</p>
+                                        <p class="display-6 fw-bold mb-0">NIS/LDN</p>
                                         <p class="card-text">Nemocniční informační systém pro malé nemocnice a léčebny dlouhodobě nemocných</p>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                 <img src="img/rehabilitation.jpg" class="card-img rounded-4" alt="...">
                                 <div class="card-img-overlay">
                                     <div class="card-overlay-content d-flex flex-column justify-content-end h-100">
-                                        <p class="display-5 fw-bold mb-0">Rehabilitace</p>
+                                        <p class="display-6 fw-bold mb-0">Rehabilitace</p>
                                         <p class="card-text">Systém pro vedení rehabilitačních zařízení</p>
                                     </div>
                                 </div>
@@ -107,11 +107,11 @@
                                     <i class="fa-light fa-box fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SKLAD</span></p>
-                                <p class="mb-0 small">Skladové hospodářství</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SKLAD</span></p>
+                                <p class="mb-0">Skladové hospodářství</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -121,16 +121,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-robot fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET</span></p>
-                                <p class="mb-0 small">Virtuální asistent</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET</span></p>
+                                <p class="mb-0">Virtuální asistent</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -140,16 +140,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-robot fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET PLUS</span></p>
-                                <p class="mb-0 small">Pokročilý virtuální asistent</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET PLUS</span></p>
+                                <p class="mb-0">Pokročilý virtuální asistent</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -159,16 +159,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-microphone-lines fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.VOIP</span></p>
-                                <p class="mb-0 small">Hlasový asistent</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.VOIP</span></p>
+                                <p class="mb-0">Hlasový asistent</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -178,16 +178,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-input-text fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.OCR</span></p>
-                                <p class="mb-0 small">Digitalizace tištěných textů</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.OCR</span></p>
+                                <p class="mb-0">Digitalizace tištěných textů</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -197,16 +197,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-file-chart-pie fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPORTING</span></p>
-                                <p class="mb-0 small">Automatické reporty</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPORTING</span></p>
+                                <p class="mb-0">Automatické reporty</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -216,16 +216,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-camera fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.FOTO</span></p>
-                                <p class="mb-0 small">Aplikace pro snadné focení</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.FOTO</span></p>
+                                <p class="mb-0">Aplikace pro snadné focení</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -235,16 +235,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-terminal fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.API</span></p>
-                                <p class="mb-0 small">Aplikační programové rozhraní</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.API</span></p>
+                                <p class="mb-0">Aplikační programové rozhraní</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -254,16 +254,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-desktop fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.DICOM</span></p>
-                                <p class="mb-0 small">Napojení na zobrazovací systém Dicom</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.DICOM</span></p>
+                                <p class="mb-0">Napojení na zobrazovací systém Dicom</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -273,16 +273,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-file-invoice fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.ÚČETNICTVÍ</span></p>
-                                <p class="mb-0 small">Export do účetního systému</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.ÚČETNICTVÍ</span></p>
+                                <p class="mb-0">Export do účetního systému</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -292,16 +292,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-credit-card fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.TERMINÁL</span></p>
-                                <p class="mb-0 small">Napojení na platební terminál</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.TERMINÁL</span></p>
+                                <p class="mb-0">Napojení na platební terminál</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -311,16 +311,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-clipboard-medical fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.INTERAKCE</span></p>
-                                <p class="mb-0 small">Lékové interakce Vademecum</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.INTERAKCE</span></p>
+                                <p class="mb-0">Lékové interakce Vademecum</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -330,16 +330,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-fingerprint fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.WITNESS</span></p>
-                                <p class="mb-0 small">Nástroj pro ověření identifikace</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.WITNESS</span></p>
+                                <p class="mb-0">Nástroj pro ověření identifikace</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -349,16 +349,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-arrows-to-circle fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPLIKACE</span></p>
-                                <p class="mb-0 small">Vzdálené propojení databáze</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPLIKACE</span></p>
+                                <p class="mb-0">Vzdálené propojení databáze</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -368,16 +368,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-database fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.BACKUP</span></p>
-                                <p class="mb-0 small">Rozšířené zálohování databáze</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.BACKUP</span></p>
+                                <p class="mb-0">Rozšířené zálohování databáze</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -387,16 +387,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-folder-open fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.EZD</span></p>
-                                <p class="mb-0 small">Elektronická zdravotnická dokumentace</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.EZD</span></p>
+                                <p class="mb-0">Elektronická zdravotnická dokumentace</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -406,16 +406,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-signature fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SIGNOTEC</span></p>
-                                <p class="mb-0 small">Dynamický podpis</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SIGNOTEC</span></p>
+                                <p class="mb-0">Dynamický podpis</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -425,16 +425,16 @@
                 <div class="col-12 col-lg-6">
                     <div class="card rounded-4 p-4 border-0 bg-white bg-opacity-10 text-white">
                         <div class="row">
-                        <div class="col-2 align-self-center text-center">
+                            <div class="col-2 align-self-center text-center">
                                 <div class="icon">
                                     <i class="fa-light fa-comment-sms fs-3"></i>
                                 </div>
                             </div>
-                            <div class="col-8 align-self-center">
-                                <p class="fs-6 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SMS</span></p>
-                                <p class="mb-0 small">Automatické události</p>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SMS</span></p>
+                                <p class="mb-0">Automatické události</p>
                             </div>
-                            <div class="col-2 align-self-center text-center move-icon">
+                            <div class="col-1 align-self-center text-center move-icon">
                                 <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
                             </div>
                         </div>
@@ -443,7 +443,72 @@
 
             </div>
         </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-outline-primary fw-semibold">Zobrazit ceník</a>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer class="">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-lg-5 text-center text-lg-start align-self-center">
+                    <img src="img/medax-logo.svg" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-3 text-center text-lg-start">
+                    <p class="fs-5 fw-semibold">Kam jít</p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Úvod</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Volitelné rozšíření</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Ceník</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Demoverze</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Obecné</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Společnost</a></p>
+                    <p class="small mb-0"><a class="text-inherit" href="/">Pomoc</a></p>
+                </div>
+                <div class="col-12 col-lg-4 text-center text-lg-start">
+                    <p class="fs-5 fw-semibold">Kontakt</p>
+                    <p class="small mb-0">Oběžná 2075/11</p>
+                    <p class="small mb-0">709 00 Ostrava</p>
+                    <p class="small mb-3">IČ: 27836673</p>
+
+                    <p class="small mb-0">bankovní spojení: ČSOB Ostrava 220015351/0300</p>
+                    <p class="small mb-0">IBAN: CZ13 0300 0000 0002 2001 5351</p>
+                    <p class="small mb-3">BIC/SWIFT: CEKOCZPP</p>
+                    <p class="small mb-0">Společnost vedená u rejstříkového soudu v Ostravě pod značkou C 30978</p>
+                </div>
+            </div>
+            <div class="row border-top border-light pt-3" style="--bs-border-opacity: .25;">
+                <div class="col-12 col-md-6 text-center text-md-start align-self-center">
+                    <p class="small">Vytvořeno s <span class=""><i class="fa-solid fa-heart text-danger"></i></span> v roce 2024. Všechna práva vyhrazena.</p>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-end align-self-center">
+                    <p class="small">Vytvořil <a class="text-inherit" href="humanit.cz">Humanit s.r.o.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="demo_version" tabindex="-1" aria-labelledby="demo_versionLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="demo_versionLabel">SmartMEDIX - demoverze</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-outline-primary bg-dark-blue">Odeslat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END -->
 
     <!-- Offcanvas -->
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
