@@ -2,8 +2,8 @@ body {
   position: relative;
   box-sizing: border-box;
   min-height: 100vh;
-  background: rgb(2, 12, 23);
-  background: linear-gradient(180deg, rgba(2, 12, 23, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  background: #020c17;
+  /*  background: linear-gradient(180deg, rgba(2, 12, 23, 1) 50%, rgba(0, 0, 0, 1) 100%);*/
   color: white;
   font-size: 1.0625rem;
   line-height: 1.6;
@@ -25,7 +25,7 @@ body {
 }
 
 .bg-lighter-blue {
-  background: #07111d;
+  background: rgb(19, 52, 88) !important;
 }
 
 .container-fluid {
@@ -76,6 +76,7 @@ body {
 
 a.navbar-brand img {
   max-width: 250px;
+  transition: 0.2s;
 }
 
 .btn-close:focus {
@@ -83,7 +84,7 @@ a.navbar-brand img {
 }
 
 .hero-section {
-  background: url("../img/mozek-bg-jpg.jpg");
+  background: url("../img/mozek-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,6 +133,10 @@ span.heart {
   text-decoration: none;
 }
 
+.extended-functions .card {
+  backdrop-filter: blur(5px);
+}
+
 .extended-functions .card .move-icon i {
   transition: all 0.3s ease; /* Zajišťuje hladký přechod pro všechny změny */
 }
@@ -141,7 +146,8 @@ span.heart {
   transition: transform 0.3s ease; /* Umožňuje hladký posun */
 }
 
-.extended-functions .icon {
+.extended-functions .icon,
+.icon {
   width: 51px;
   height: 51px;
   display: flex;
@@ -154,26 +160,32 @@ span.heart {
 }
 
 .btn-primary {
-  background: white;
-  color: rgba(2, 12, 23, 1);
-  border-color: white;
-}
-
-.btn-outline-primary {
+  background: rgb(19, 52, 88);
   color: white;
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .btn-primary:hover {
-  background: rgba(2, 12, 23, 1);
-  color: white;
-  border-color: rgba(2, 12, 23, 1);
+  background: #020c17;
+  border-color: #020c17;
 }
 
-.btn-outline-primary:hover {
-  background: rgba(2, 12, 23, 1);
+.btn-outline-secondary {
   color: white;
-  border-color: rgba(2, 12, 23, 1);
+  border-color: rgba(255, 255, 255, 0.15);
+  background: #020c17;
+}
+
+.btn-secondary:hover {
+  background: rgb(19, 52, 88);
+  color: white;
+  border-color: rgb(19, 52, 88);
+}
+
+.btn-outline-secondary:hover {
+  background: rgb(19, 52, 88);
+  color: white;
+  border-color: rgb(19, 52, 88);
 }
 
 .btn-check:checked + .btn,
@@ -181,9 +193,9 @@ span.heart {
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check) + .btn:active {
-  background: rgba(2, 12, 23, 1);
+  background: rgb(19, 52, 88);
   color: white;
-  border-color: rgba(2, 12, 23, 1);
+  border-color: rgb(19, 52, 88);
 }
 
 /*
@@ -192,13 +204,65 @@ span.heart {
 }
 */
 
+.pre-footer-wrapper {
+  background: url('../img/bg-3.jpg'), linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 footer img {
   max-width: 350px !important;
 }
 
-.table>:not(caption)>*>* {
+.table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
   background-color: transparent !important;
   color: white;
-  border-bottom: 1px solid rgba(255,255,255,.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.offcanvas-body ul li a {
+  transition: 0.2s;
+}
+
+.offcanvas-body ul li a:hover {
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+@media (min-width: 768px) {
+  .extended-functions {
+    background: url("../img/bg-2.jpg");
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.navbar {
+  transition: 0.2s;
+}
+
+.scrolled-navbar {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  transition: 0.2s;
+}
+
+.scrolled-navbar .navbar-brand img {
+  max-width: 180px;
+  transition: 0.2s;
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.bg-gradient-reverse {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(2, 12, 23, 1) 100%);
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
