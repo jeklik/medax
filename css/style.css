@@ -90,6 +90,19 @@ a.navbar-brand img {
   background-repeat: no-repeat;
 }
 
+@media(max-width: 768px){
+  .hero-section.min-vh-100 {
+    min-height: 100vh;
+    height: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  a.navbar-brand img {
+    max-width: 200px;
+    transition: 0.2s;
+}
+}
+
 canvas {
   opacity: 0.25;
   position: absolute;

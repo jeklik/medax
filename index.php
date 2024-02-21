@@ -36,8 +36,8 @@
                         reklamu, je určený pro malá i velká zdravotnická zařízení. Umožňuje kompletní vedení zdravotnické
                         dokumentace, vyúčtování péče a konektivitu na veškeré eHealth systémy českého zdravotnictví.</p>
                     <div class="d-grid gap-2 d-md-block">
-                        <a href="#" class="btn btn-primary px-5 rounded-4">Chci vědět víc</a>
-                        <a href="#" class="btn btn-outline-secondary px-5 rounded-4" data-bs-toggle="modal" data-bs-target="#demo_version">Mám zájem o demoverzi</a>
+                        <a href="#" class="btn btn-lg btn-danger px-5 rounded-4 mb-4 mb-xl-0">Chci vědět víc</a>
+                        <a href="#" class="btn btn-lg btn-outline-secondary px-5 rounded-4 mb-4 mb-xl-0" data-bs-toggle="modal" data-bs-target="#demo_version">Mám zájem o demoverzi</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-box fs-3"></i>
+                                    <i class="fa-solid fa-box fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -116,7 +116,7 @@
                                 <p class="mb-0">Skladové hospodářství</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-robot fs-3"></i>
+                                    <i class="fa-solid fa-robot fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -135,7 +135,7 @@
                                 <p class="mb-0">Virtuální asistent</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-robot fs-3"></i>
+                                    <i class="fa-solid fa-robot fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -154,7 +154,7 @@
                                 <p class="mb-0">Pokročilý virtuální asistent</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-microphone-lines fs-3"></i>
+                                    <i class="fa-solid fa-microphone-lines fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -173,7 +173,7 @@
                                 <p class="mb-0">Hlasový asistent</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-input-text fs-3"></i>
+                                    <i class="fa-solid fa-input-text fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -192,7 +192,7 @@
                                 <p class="mb-0">Digitalizace tištěných textů</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-file-chart-pie fs-3"></i>
+                                    <i class="fa-solid fa-file-chart-pie fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -211,7 +211,7 @@
                                 <p class="mb-0">Automatické reporty</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-camera fs-3"></i>
+                                    <i class="fa-solid fa-camera fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -230,7 +230,7 @@
                                 <p class="mb-0">Aplikace pro snadné focení</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-terminal fs-3"></i>
+                                    <i class="fa-solid fa-terminal fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -249,7 +249,7 @@
                                 <p class="mb-0">Aplikační programové rozhraní</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-desktop fs-3"></i>
+                                    <i class="fa-solid fa-desktop fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -268,7 +268,7 @@
                                 <p class="mb-0">Napojení na zobrazovací systém Dicom</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -279,7 +279,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-file-invoice fs-3"></i>
+                                    <i class="fa-solid fa-file-invoice fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -287,7 +287,7 @@
                                 <p class="mb-0">Export do účetního systému</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-credit-card fs-3"></i>
+                                    <i class="fa-solid fa-credit-card fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -306,7 +306,7 @@
                                 <p class="mb-0">Napojení na platební terminál</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-clipboard-medical fs-3"></i>
+                                    <i class="fa-solid fa-clipboard-medical fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -325,7 +325,7 @@
                                 <p class="mb-0">Lékové interakce Vademecum</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-fingerprint fs-3"></i>
+                                    <i class="fa-solid fa-fingerprint fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -344,7 +344,7 @@
                                 <p class="mb-0">Nástroj pro ověření identifikace</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-arrows-to-circle fs-3"></i>
+                                    <i class="fa-solid fa-arrows-to-circle fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -363,7 +363,7 @@
                                 <p class="mb-0">Vzdálené propojení databáze</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -374,7 +374,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-database fs-3"></i>
+                                    <i class="fa-solid fa-database fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -382,7 +382,7 @@
                                 <p class="mb-0">Rozšířené zálohování databáze</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-folder-open fs-3"></i>
+                                    <i class="fa-solid fa-folder-open fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -401,7 +401,7 @@
                                 <p class="mb-0">Elektronická zdravotnická dokumentace</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -412,7 +412,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-signature fs-3"></i>
+                                    <i class="fa-solid fa-signature fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -420,7 +420,7 @@
                                 <p class="mb-0">Dynamický podpis</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -431,7 +431,7 @@
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-light fa-comment-sms fs-3"></i>
+                                    <i class="fa-solid fa-comment-sms fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
@@ -439,7 +439,7 @@
                                 <p class="mb-0">Automatické události</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2"></i></span></a>
+                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -450,7 +450,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <a href="#" class="btn btn-primary px-5 rounded-4">Mám zájem</a>
+                    <a href="#" class="btn btn-lg btn-danger px-5 rounded-4">Mám zájem</a>
                 </div>
             </div>
         </div>
@@ -517,7 +517,7 @@
                             </div>
                             <p class="fs-1 fw-semibold mb-0 text-center text-lg-start">Vzorový příklad:</p>
                             <p class="fs-4 fw-normal mb-0 text-center text-lg-start">Lékař + sestra</p>
-                            <a href="#" class="btn btn-primary px-5 rounded-4 mt-4">Zobrazit celý ceník</a>
+                            <a href="#" class="btn btn-lg btn-danger px-5 rounded-4 mt-4">Zobrazit celý ceník</a>
                         </div>
                     </div>
                 </div>
@@ -533,13 +533,14 @@
                     </div>
                     <div class="col-12 col-lg-3 text-center text-lg-start">
                         <p class="fs-5 fw-semibold">Kam jít</p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Úvod</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Volitelné rozšíření</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Ceník</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Demoverze</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Obecné</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Společnost</a></p>
-                        <p class="small mb-0"><a class="text-inherit" href="/">Pomoc</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Úvod</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Volitelné rozšíření</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Ceník</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Demoverze</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Obecné</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> O naší společnosti</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Pomoc</a></p>
+                        <p class="small mb-0"><a class="text-inherit" href="/"><i class="fa-regular fa-chevron-right me-2"></i> Zásady ochrany osobních údajů</a></p>
                     </div>
                     <div class="col-12 col-lg-4 text-center text-lg-start">
                         <p class="fs-5 fw-semibold">Kontakt</p>
@@ -614,7 +615,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary w-100 rounded-4">Odeslat žádost</button>
+                            <button type="submit" class="btn btn-lg btn-danger w-100 rounded-4">Odeslat žádost</button>
                         </div>
                     </form>
                 </div>
@@ -650,7 +651,7 @@
                     </ul>
                 </div>
                 <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-primary bg-dark-blue rounded-4" data-bs-dismiss="modal" aria-label="Close">Zavřít</button>
+                    <button type="button" class="btn btn-lg bg-dark-blue rounded-4" data-bs-dismiss="modal" aria-label="Close">Zavřít</button>
                 </div>
             </div>
         </div>

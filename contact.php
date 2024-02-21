@@ -44,24 +44,24 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Pobočky</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5 mb-xl-0">
+                    <p class="fs-4 fw-semibold text-danger">Pobočky</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-0">
                             <p class="fs-5 fw-semibold mb-0">Pobočka Praha</p>
                             <p class="mb-0">Chodovecké náměstí 324/8</p>
                             <p class="mb-0">141 00 Praha 4</p>
                             <p class="mb-0">e-mail: prodej@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5 mb-xl-0">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-0">
                             <p class="fs-5 fw-semibold mb-0">Pobočka Ostrava</p>
                             <p class="mb-0">Závodní 1245/91</p>
                             <p class="mb-0">700 30 Ostrava - Zábřeh</p>
                             <p class="mb-0">e-mail: prodej@medax.cz</p>
                         </div>
                     </div>
-                    <p class="fs-4 fw-semibold">DPO</p>
+                    <p class="fs-4 fw-semibold text-danger">DPO</p>
                     <div class="row mt-4">
-                        <div class="col-12 col-lg-4 mb-5 mb-xl-0">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-0">
                             <p class="fs-5 fw-semibold mb-0">Mgr. Bc. Lukáš Jedlička</p>
                             <p class="mb-0">tel.: +420 608 048 013</p>
                             <p class="mb-0">e-mail: poverenec@medax.cz</p>
@@ -77,14 +77,14 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Podpora</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5 mb-xl-0">
+                    <p class="fs-4 fw-semibold text-danger">Podpora</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-0">
                             <p class="fs-5 fw-semibold mb-0">Podpora programu SmartMEDIX</p>
                             <p class="mb-0">tel.: +420 733 398 440</p>
                             <p class="mb-0">e-mail: podpora@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5 mb-xl-0">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-0">
                             <p class="fs-5 fw-semibold mb-0">Podpora programu modulu IVF</p>
                             <p class="mb-0">tel.: +420 733 398 440</p>
                             <p class="mb-0">e-mail: podpora@medax.cz</p>
@@ -100,52 +100,52 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Obchod</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Obchod</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Jiří Vopalecký</p>
                             <p class="mb-0">Jiri.vopalecky@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Petr Bukovský</p>
                             <p class="mb-0">Petr.bukovsky@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Daniel Kořízek</p>
                             <p class="mb-0">daniel.korizek@medax.cz</p>
                         </div>
 
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Mgr. Vladimír Javorský</p>
                             <p class="mb-0">Vladimir.javorsky@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Josef Stříteský</p>
                             <p class="mb-0">Josef.stritesky@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Ondřej Zeman</p>
                             <p class="mb-0">ondrej.zeman@medax.cz</p>
                         </div>
 
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Tomáš Pěkný</p>
                             <p class="mb-0">tomas.pekny@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Kamila Konečná</p>
                             <p class="mb-0">kamila.konecna@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Dušan Horváth</p>
                             <p class="mb-0">dusan.horvath@medax.cz</p>
                         </div>
 
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Michal Ponocný</p>
                             <p class="mb-0">michal.ponocny@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Bc. Stanislav Kukal</p>
                             <p class="mb-0">stanislav.kukal@medax.cz</p>
                         </div>
@@ -160,17 +160,17 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Product managment</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Product managment</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Pavol Toth</p>
                             <p class="mb-0">pavol.toth@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Bc. Dita Lejsková</p>
                             <p class="mb-0">dita.lejskova@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Pavel Hrinda</p>
                             <p class="mb-0">pavel.hrinda@medax.cz</p>
                         </div>
@@ -185,9 +185,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Analytik a klinický konzultant pro vývoj AIS</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Analytik a klinický konzultant pro vývoj AIS</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">MUDr. Tomáš Nosek, Ph.D.</p>
                             <p class="mb-0">tomas.nosek@medax.cz</p>
                         </div>
@@ -202,35 +202,35 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Externí obchodní zastoupení</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Externí obchodní zastoupení</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Roman Čáp</p>
                             <p class="mb-0">roman.cap@medax.cz</p>
                             <p class="mb-0">Oblast: celá ČR</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Ing. Vlastimil Hlavička</p>
                             <p class="mb-0">vlastimil.hlavicka@medax.cz</p>
                             <p class="mb-0">Oblast: Vysočina</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Radek Čáp</p>
                             <p class="mb-0">radek.cap@medax.cz</p>
                             <p class="mb-0">Oblast: celá ČR</p>
                         </div>
 
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Mgr. Petr Káč</p>
                             <p class="mb-0">petr.kac@medax.cz</p>
                             <p class="mb-0">Oblast: celá ČR</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Mgr. Bc. Lukáš Jedlička</p>
                             <p class="mb-0">lukas.jedlicka@medax.cz</p>
                             <p class="mb-0">Oblast: Severní Čechy</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">RNDr. René Zugar</p>
                             <p class="mb-0">rene.zugar@medax.cz</p>
                             <p class="mb-0">Oblast: celá ČR</p>
@@ -246,17 +246,17 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Fakturační oddělení</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Fakturační oddělení</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Ing. Silvie Dobiášová</p>
                             <p class="mb-0">silvie.dobiasova@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Petra Kamenická</p>
                             <p class="mb-0">petra.kamenicka@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Monika Blažíčková</p>
                             <p class="mb-0">monika.blazickova@medax.cz</p>
                         </div>
@@ -271,20 +271,86 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <p class="fs-4 fw-semibold">Vedení</p>
-                    <div class="row mb-5">
-                        <div class="col-12 col-lg-4 mb-5">
+                    <p class="fs-4 fw-semibold text-danger">Vedení</p>
+                    <div class="row mb-5 gx-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Ing. Marek Dobiáš</p>
                             <p class="mb-0">marek.dobias@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">Ing. Pavel Kamenický</p>
                             <p class="mb-0">pavel.kamenicky@medax.cz</p>
                         </div>
-                        <div class="col-12 col-lg-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5">
                             <p class="fs-5 fw-semibold mb-0">David Mázik</p>
                             <p class="mb-0">david.mazik@medax.cz</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form pb-5">
+        <div class="container">
+            <div class="container">
+                <div class="card p-5 bg-white rounded-4 shadow" style="--bs-bg-opacity: .05; backdrop-filter: blur(8px)" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="row gx-lg-5">
+                        <div class="col-12 col-lg-5 align-self-center text-white">
+                            <div class="d-flex align-items-start display-3 fw-semibold mb-4 text-center text-lg-start">
+                                Kontakt
+                            </div>
+                            <p class="fs-1 fw-semibold mb-0 text-center text-lg-start">Nebojte se napsat</p>
+                            <p class="fs-4 fw-normal mb-0 text-center text-lg-start">Rádi Vám zodpovíme všechny otázky</p>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <div class="card rounded-4 p-4 bg-black bg-opacity-50">
+                                <form class="row g-3 text-white">
+                                    <div class="col-12 col-md-6">
+                                        <label for="device_name" class="form-label">Název zařízení</label>
+                                        <input type="text" class="form-control" id="device_name">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="city" class="form-label">Město</label>
+                                        <input type="text" class="form-control" id="city">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="contact_person" class="form-label">Kontaktní osoba</label>
+                                        <input type="text" class="form-control" id="contact_person" placeholder="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="skills" class="form-label">Odbornost</label>
+                                        <input type="text" class="form-control" id="skills">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="phone_number" class="form-label">Telefon</label>
+                                        <input type="text" class="form-control" id="phone_number" placeholder="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="email">
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <label for="notes" class="form-label">Poznámka</label>
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Poznámka" id="notes"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4 mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="agreements">
+                                            <label class="form-check-label" for="agreements">
+                                                Souhlas se <a href="#" class="text-inherit">zpracováním osobních údajů</a> (bez souhlasu nelze žádost odeslat)
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-lg btn-danger w-100 rounded-4">Odeslat žádost</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@
         </div>
     </nav>
 
-    <section class="mt-5 py-5 detail"  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="250" data-aos-offset="0" data-aos-duration="500">
+    <section class="mt-5 py-5 detail" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="250" data-aos-offset="0" data-aos-duration="500">
         <div class="container-fluid mt-5 py-5">
             <div class="row gx-lg-5">
                 <div class="col-12 col-xl-4 offset-xl-1 mb-5 mb-xl-0">
@@ -34,10 +34,20 @@
                         <p class="display-6 fw-semibold mb-4 text-center text-lg-start">SmartMEDIX.NET PLUS</p>
                         <p class="fs-3 fw-semibold mb-0 text-center text-lg-start">Pokročilý virtuální ASISTENT</p>
                         <p class="fs-6 mb-0 text-center text-lg-start">Rozšíření virtuálního asistenta o uživatelsky definovatelné formuláře (dotazníky) pro pacienty i personál zdravotnického zařízení.</p>
-                        <div class="card p-4 rounded-4 border-0 mt-4 text-center bg-white" style="--bs-bg-opacity: .05; backdrop-filter: blur(10px)">
-                            <span class="fs-4 fw-semibold text-white"><i class="fa-solid fa-tag me-2"></i> Cena: 205 Kč / měs. / slot</span>
+                        <div class="card p-4 rounded-4 border-0 mt-5 bg-dark-blue text-white">
+                                <div class="row">
+                                    <div class="col-3 d-flex justify-content-center align-self-center text-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-tag fs-3 text-danger"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 align-self-center text-start">
+                                        <p class="fs-3 fw-semibold mb-0">Cena</p>
+                                        <p class="mb-0">205 Kč / měs. / slot</p>
+                                    </div>
+                                </div>
                         </div>
-                        <a href="#" class="btn btn-primary px-5 rounded-4 mt-4">Chci vědět víc</a>
+                        <a href="#" class="btn btn-lg btn-danger px-5 rounded-4 mt-4">Chci vědět víc</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-7">
