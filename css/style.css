@@ -205,10 +205,17 @@ span.heart {
 */
 
 .pre-footer-wrapper {
-  background: url('../img/bg-3.jpg'), linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: url('../img/bg-3.jpg'), linear-gradient(0deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
+}
+
+.detail {
+  background: url('../img/bg-5.jpg'), linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 footer img {
@@ -265,4 +272,12 @@ footer img {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.form-control {
+  border-color: transparent;
 }

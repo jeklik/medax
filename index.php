@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar position-fixed fixed-top rounded-bottom-5">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">
+            <a class="navbar-brand text-white" href="/">
                 <img src="img/medax-logo-01.svg" class="img-fluid">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
@@ -568,16 +568,55 @@
     <!-- Modal DEMO -->
     <div class="modal fade" id="demo_version" tabindex="-1" aria-labelledby="demo_versionLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-white text-white rounded-4" style="--bs-bg-opacity: 0.15; backdrop-filter: blur(10px)">
                 <div class="modal-header border-0">
                     <h1 class="modal-title fs-5" id="demo_versionLabel">SmartMEDIX - demoverze</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close invert" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-outline-primary bg-dark-blue">Odeslat</button>
+                    <form class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label for="device_name" class="form-label">Název zařízení</label>
+                            <input type="text" class="form-control" id="device_name">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="city" class="form-label">Město</label>
+                            <input type="text" class="form-control" id="city">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="contact_person" class="form-label">Kontaktní osoba</label>
+                            <input type="text" class="form-control" id="contact_person" placeholder="">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="skills" class="form-label">Odbornost</label>
+                            <input type="text" class="form-control" id="skills">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="phone_number" class="form-label">Telefon</label>
+                            <input type="text" class="form-control" id="phone_number" placeholder="">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="col-12 col-md-12">
+                            <label for="notes" class="form-label">Poznámka</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Poznámka" id="notes"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4 mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="agreements">
+                                <label class="form-check-label" for="agreements">
+                                    Souhlas se <a href="#" class="text-inherit">zpracováním osobních údajů</a> (bez souhlasu nelze žádost odeslat)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary w-100 rounded-4">Odeslat žádost</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -587,16 +626,31 @@
     <!-- Modal price info -->
     <div class="modal fade" id="price_info" tabindex="-1" aria-labelledby="price_infoLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-white text-white rounded-4" style="--bs-bg-opacity: 0.15; backdrop-filter: blur(10px)">
                 <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="price_infoLabel">SmartMEDIX - Co je v ceně</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title fs-5" id="price_infoLabel">Základní program</h1>
+                    <button type="button" class="btn-close invert" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <ul>
+                        <li class="fw-semibold">odesílání dávek z programu přímo na portál ZP</li>
+                        <li class="fw-semibold">online ověření stavu pojištění a registrace</li>
+                        <li class="fw-semibold">eNeschopenka, eRecept, ePoukaz</li>
+                        <li class="fw-semibold">obrazová dokumentace a záznam videa (skenování, import dokumentů)</li>
+                        <li class="fw-semibold">automatické zvaní na preventivní prohlídky</li>
+                        <div class="w-100 my-4"></div>
+                        <li>stahování zúčtovacích zpráv z portálů ZP</li>
+                        <li>napojení na externí programy a zařízení (EKG, holter, UZ, spirometr, atd…)</li>
+                        <li>lékové informace SPC a PIL</li>
+                        <li>export statistik pro ÚZIS</li>
+                        <li>laboratorní výsledky, elektronické laboratorní žádanky</li>
+                        <li>diabetologický modul</li>
+                        <li>odesílání e-mailů přímo z programu</li>
+                        <li>vzdálený videohovor s pacientem</li>
+                    </ul>
                 </div>
                 <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-outline-primary bg-dark-blue">Odeslat</button>
+                    <button type="button" class="btn btn-primary bg-dark-blue rounded-4" data-bs-dismiss="modal" aria-label="Close">Zavřít</button>
                 </div>
             </div>
         </div>
@@ -621,7 +675,7 @@
                     <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Ceník</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Demoverze</a>
+                    <a class="nav-link py-3 fs-5" href="#" data-bs-toggle="modal" data-bs-target="#demo_version"><i class="fa-regular fa-chevron-right me-2"></i> Demoverze</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Obecné</a>
@@ -633,7 +687,7 @@
                     <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Pomoc</a>
                 </li>
             </ul>
-            <div class="card mt-4 bg-dark-blue p-3 rounded-4" style="--bs-bg-opacity: .15">
+            <div class="card mt-4 p-3 rounded-4 bg-white" style="--bs-bg-opacity: .05; backdrop-filter: blur(10px)">
                 <div class="row text-white">
                     <div class="col-3 align-self-center d-flex justify-content-center align-items-center">
                         <div class="icon">
@@ -642,7 +696,7 @@
                     </div>
                     <div class="col-9 align-self-center">
                         <p class="fs-5 fw-semibold mb-0">Telefon:</p>
-                        <p class="mb-0">+420 123 456 789</p>
+                        <p class="mb-0"><a href="tel:+420123456789" class="text-inherit stretched-link">+420 123 456 789</a></p>
                     </div>
                 </div>
             </div>
