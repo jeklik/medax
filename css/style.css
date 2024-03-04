@@ -90,7 +90,7 @@ a.navbar-brand img {
   background-repeat: no-repeat;
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .hero-section.min-vh-100 {
     min-height: 100vh;
     height: auto;
@@ -100,7 +100,7 @@ a.navbar-brand img {
   a.navbar-brand img {
     max-width: 200px;
     transition: 0.2s;
-}
+  }
 }
 
 canvas {
@@ -218,14 +218,14 @@ span.heart {
 */
 
 .pre-footer-wrapper {
-  background: url('../img/bg-3.jpg'), linear-gradient(0deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /*  background: url('../img/bg-3.jpg'), linear-gradient(0deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
 
 .detail {
-  background: url('../img/bg-5.jpg'), linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  /*  background: url('../img/bg-5.jpg'), linear-gradient(180deg, rgba(2, 12, 23, 1) 0%, rgba(0, 0, 0, 1) 100%);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -253,7 +253,7 @@ footer img {
 
 @media (min-width: 768px) {
   .extended-functions {
-    background: url("../img/bg-2.jpg");
+    /*    background: url("../img/bg-2.jpg");*/
     background-position: center left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -293,4 +293,33 @@ footer img {
 
 .form-control {
   border-color: transparent;
+}
+
+.bg-danger {
+  background: #34d3b8 !important;
+  color: black !important;
+}
+
+.text-danger {
+  color: #34d3b8 !important;
+}
+
+.btn-danger {
+  background: #34d3b8 !important;
+  border-color: #34d3b8 !important;
+  color: black !important;
+}
+
+.btn.help {
+  width: auto;
+  height: 50px;
+  background: white;
+  border-radius: 50rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0 !important;
+  font-size: 22px;
+  padding: 0 25px;
 }

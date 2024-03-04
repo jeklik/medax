@@ -20,9 +20,14 @@
             <a class="navbar-brand text-white" href="/">
                 <img src="img/medax-logo-01.svg" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
-                <i class="fa-solid fa-bars-staggered"></i>
-            </button>
+            <div class="d-grid gap-3 d-md-inline-flex">
+                <button class="btn bg-white border-0 help" type="button">
+                    <i class="fa-solid fa-comments-question-check me-2"></i> Vzdálené připojení
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
         </div>
     </nav>
     <section class="hero-section min-vh-100" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
@@ -30,8 +35,7 @@
         <div class="container vh-100" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" data-aos-duration="1000">
             <div class="row h-100 d-flex align-items-center justify-content-center">
                 <div class="col-12 col-sm-12 col-lg-8 col-xl-7 z-3 text-center">
-                    <h1 class="display-1 fw-bold mb-1 ls-0 position-relative"><span class="fw-normal">Smart</span>MEDIX<span class="fs-3 heart ms-2"><i class="fa-solid fa-heart text-danger"></i></span></h1>
-                    <h2 class="fs-2 fs-semibold mb-5">Váš přátelský lékařský software...</h2>
+                    <h1 class="display-1 fw-bold mb-1 ls-0 position-relative"><span class="fw-normal">Smart</span>MEDIX<span class="fs-3 heart ms-2 d-none"><i class="fa-solid fa-heart text-danger"></i></span></h1>
                     <p class="mb-5 fw-light">SmartMEDIX je informační systém vyvíjený českou společností, který neobsahuje nevyžádanou
                         reklamu, je určený pro malá i velká zdravotnická zařízení. Umožňuje kompletní vedení zdravotnické
                         dokumentace, vyúčtování péče a konektivitu na veškeré eHealth systémy českého zdravotnictví.</p>
@@ -103,20 +107,20 @@
         </div>
         <div class="container">
             <div class="row gx-5 gy-3">
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+            <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                     <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
                         <div class="row">
                             <div class="col-2 align-self-center text-center">
                                 <div class="icon">
-                                    <i class="fa-solid fa-box fs-3 text-danger"></i>
+                                    <i class="fa-solid fa-robot fs-3 text-danger"></i>
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SKLAD</span></p>
-                                <p class="mb-0">Skladové hospodářství</p>
+                                <p class="fs-6 fw-semibold mb-0">Virtuální ASISTENT</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -131,220 +135,10 @@
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET</span></p>
-                                <p class="mb-0">Virtuální asistent</p>
+                                <p class="fs-6 fw-semibold mb-0">Pokročilý virtuální ASISTENT</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-robot fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.NET PLUS</span></p>
-                                <p class="mb-0">Pokročilý virtuální asistent</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-microphone-lines fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.VOIP</span></p>
-                                <p class="mb-0">Hlasový asistent</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-input-text fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.OCR</span></p>
-                                <p class="mb-0">Digitalizace tištěných textů</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-file-chart-pie fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPORTING</span></p>
-                                <p class="mb-0">Automatické reporty</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-camera fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.FOTO</span></p>
-                                <p class="mb-0">Aplikace pro snadné focení</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-terminal fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.API</span></p>
-                                <p class="mb-0">Aplikační programové rozhraní</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-desktop fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.DICOM</span></p>
-                                <p class="mb-0">Napojení na zobrazovací systém Dicom</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-file-invoice fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.ÚČETNICTVÍ</span></p>
-                                <p class="mb-0">Export do účetního systému</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-credit-card fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.TERMINÁL</span></p>
-                                <p class="mb-0">Napojení na platební terminál</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-clipboard-medical fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.INTERAKCE</span></p>
-                                <p class="mb-0">Lékové interakce Vademecum</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-fingerprint fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.WITNESS</span></p>
-                                <p class="mb-0">Nástroj pro ověření identifikace</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -359,30 +153,10 @@
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.REPLIKACE</span></p>
-                                <p class="mb-0">Vzdálené propojení databáze</p>
+                                <p class="fs-6 fw-semibold mb-0">Vzdálené PROPOJENÍ databází</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-database fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.BACKUP</span></p>
-                                <p class="mb-0">Rozšířené zálohování databáze</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -397,30 +171,10 @@
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.EZD</span></p>
-                                <p class="mb-0">Elektronická zdravotnická dokumentace</p>
+                                <p class="fs-6 fw-semibold mb-0">Vedení dokumentace v elektronické podobě</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
-                        <div class="row">
-                            <div class="col-2 align-self-center text-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-signature fs-3 text-danger"></i>
-                                </div>
-                            </div>
-                            <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SIGNOTEC</span></p>
-                                <p class="mb-0">Dynamický podpis</p>
-                            </div>
-                            <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -435,11 +189,244 @@
                                 </div>
                             </div>
                             <div class="col-9 align-self-center">
-                                <p class="fs-5 fw-semibold mb-0">Smart<span class="fw-bold">MEDIX.SMS</span></p>
-                                <p class="mb-0">Automatické události</p>
+                                <p class="fs-6 fw-semibold mb-0">SMS - Automatická upozornění</p>
                             </div>
                             <div class="col-1 align-self-center text-center move-icon">
-                                <a href="#" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-microphone-lines fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Hlasový ASISTENT</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-input-text fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">DIGITALIZACE tištěných textů</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-box fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">SKLADOVÉ hospodářství</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-file-chart-pie fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Automatické REPORTY</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-camera fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Aplikace pro snadné FOCENÍ</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-terminal fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">API - Aplikační programové ROZHRANÍ</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-desktop fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Napojení na zobrazovací systém DICOM</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-file-invoice fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Export do účetního systému</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-credit-card fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Napojení na platební terminál</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-fingerprint fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">WITNESS - nástroj pro ověření identifikace</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-signature fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">SIGNOTEC - Dynamický podpis</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-database fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Rozšířené zálohování databáze</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div class="card rounded-4 p-4 border-0 bg-white text-white" style="--bs-bg-opacity: .08; backdrop-filter: blur(8px)">
+                        <div class="row">
+                            <div class="col-2 align-self-center text-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-clipboard-medical fs-3 text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <p class="fs-6 fw-semibold mb-0">Lékové interakce Vademecum</p>
+                            </div>
+                            <div class="col-1 align-self-center text-center move-icon">
+                                <a href="/detail.php" class="fs-2 text-inherit mt-3 stretched-link"><span class="small"><i class="fa-regular fa-chevron-right ms-2 text-danger"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -687,6 +674,9 @@
                 <li class="nav-item">
                     <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Pomoc</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3 fs-5" href="/contact.php"><i class="fa-regular fa-chevron-right me-2"></i> Kontakt</a>
+                </li>
             </ul>
             <div class="card mt-4 p-3 rounded-4 bg-white" style="--bs-bg-opacity: .05; backdrop-filter: blur(10px)">
                 <div class="row text-white">
@@ -696,7 +686,7 @@
                         </div>
                     </div>
                     <div class="col-9 align-self-center">
-                        <p class="fs-5 fw-semibold mb-0">Telefon:</p>
+                        <p class="fs-6 fw-semibold mb-0">Podpora:</p>
                         <p class="mb-0"><a href="tel:+420123456789" class="text-inherit stretched-link">+420 123 456 789</a></p>
                     </div>
                 </div>

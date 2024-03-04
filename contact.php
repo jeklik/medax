@@ -15,17 +15,21 @@
 </head>
 
 <body>
-    <nav class="navbar position-fixed fixed-top rounded-bottom-5">
+<nav class="navbar position-fixed fixed-top rounded-bottom-5">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="/">
                 <img src="img/medax-logo-01.svg" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
-                <i class="fa-solid fa-bars-staggered"></i>
-            </button>
+            <div class="d-grid gap-3 d-md-inline-flex">
+                <button class="btn bg-white border-0 help" type="button">
+                    <i class="fa-solid fa-comments-question-check me-2"></i> Vzdálené připojení
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
         </div>
     </nav>
-
     <section class="mt-5 py-5 detail">
         <div class="container-fluid mt-5 py-5">
             <div class="row gx-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -519,8 +523,11 @@
                 <li class="nav-item">
                     <a class="nav-link py-3 fs-5" href="#"><i class="fa-regular fa-chevron-right me-2"></i> Pomoc</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3 fs-5" href="/contact.php"><i class="fa-regular fa-chevron-right me-2"></i> Kontakt</a>
+                </li>
             </ul>
-            <div class="card mt-4 bg-dark-blue p-3 rounded-4" style="--bs-bg-opacity: .15">
+            <div class="card mt-4 p-3 rounded-4 bg-white" style="--bs-bg-opacity: .05; backdrop-filter: blur(10px)">
                 <div class="row text-white">
                     <div class="col-3 align-self-center d-flex justify-content-center align-items-center">
                         <div class="icon">
@@ -528,7 +535,7 @@
                         </div>
                     </div>
                     <div class="col-9 align-self-center">
-                        <p class="fs-5 fw-semibold mb-0">Telefon:</p>
+                        <p class="fs-5 fw-semibold mb-0">Podpora:</p>
                         <p class="mb-0"><a href="tel:+420123456789" class="text-inherit stretched-link">+420 123 456 789</a></p>
                     </div>
                 </div>
